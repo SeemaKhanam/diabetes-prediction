@@ -47,10 +47,10 @@ y_pred=pipeline.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.4f}")
 
-accuracy = accuracy_score(y_test, y_pred)
-print(f"### Model Test Accuracy: {accuracy:.4f}")
-print("Classification Report:")
-print(classification_report(y_test, y_pred))
+#accuracy = accuracy_score(y_test, y_pred)
+#print(f"### Model Test Accuracy: {accuracy:.4f}")
+#print("Classification Report:")
+#print(classification_report(y_test, y_pred))
 
 '''# Display Evaluation
 accuracy = accuracy_score(y_test, y_pred)

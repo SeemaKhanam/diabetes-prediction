@@ -84,10 +84,10 @@ if st.button("Predict"):
 
     # Display results
     st.subheader("📝 Result Summary")
-    st.write(f"🕒**Time:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    st.write(f"👤**Name:** {name if name else 'Anonymous'}")
-    st.write(f"**Sex:**{gender}")
-    st.write(f"**Age:**{age}")
+    st.write(f"**Time:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    st.write(f"**Name:** {name if name else 'Anonymous'}")
+    st.write(f"**Sex:** {gender}")
+    st.write(f"**Age:** {age}")
     
     if prediction[0] == 1:
         st.error("⚠️ High Risk: You may have diabetes.")
